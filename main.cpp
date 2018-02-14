@@ -10,7 +10,7 @@ int main()
 string first; 
 string last;
 string name;
-
+int fort = 0;
   //get user input
 cout << "Please enter your first name." << endl;
 cin >> first;
@@ -22,9 +22,10 @@ name.push_back('.');
 name.push_back(last[0]);
 name.push_back('.');
 
-cout << "Welcome, "<< name << " your fortune is" << endl;
+cout << "Welcome, "<< name << ", here is your fortune..." << endl;
+cout << "Tha variable has " <<first.length()<< " letters"<<endl;
 
-
+cout << "your lucky number is " << first.length()<< "." <<endl;
 
 
 
