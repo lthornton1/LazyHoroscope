@@ -11,6 +11,7 @@ int main()
   string last;
   string name;
   int fort = 0;
+  int length = 0;
   //get user input
   cout << "What is your first name?" << endl;
   cin >> first;
@@ -30,6 +31,14 @@ int main()
   else{
     cout<<"you should keep a low profile."<<endl;
   }
+length = last.length();
+
+  if ( last[length-1] == 'a' ||last[length-1] == 'e' ||last[length-1] == 'i' ||last[length-1] == 'o' ||last[length-1] == 'u' ||last[length-1] == 'A' ||last[length-1] == 'E' ||last[length-1] == 'I' ||last[length-1] == 'O' ||last[length-1] == 'U' ){
+
+    cout << "you have already met your true love." << endl;
+  }
+
+
 
   cout<<"have a good day!"<<endl;
 
